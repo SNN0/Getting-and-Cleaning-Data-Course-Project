@@ -6,9 +6,9 @@ The data used in this project is sourced from the Human Activity Recognititon Us
 
 # Variables
 The variables in the dataset inculude:
-#### 1.Subject: An identifier for the volunteer who performed the activity.
-#### 2.Activity: The type of activity performed by the volunteer (e.g., Walking, Sitting, Laying).
-#### 3.Measurement variables: These variables represent the mean and standard deviation of various accelerometer and gyroscope measurements. The names of these variables follow the pattern "mean()" and "std()" respectively, as described in the feature selection section of the dataset.
+#### 1. Subject: An identifier for the volunteer who performed the activity.
+#### 2. Activity: The type of activity performed by the volunteer (e.g., Walking, Sitting, Laying).
+#### 3. Measurement variables: These variables represent the mean and standard deviation of various accelerometer and gyroscope measurements. The names of these variables follow the pattern "mean()" and "std()" respectively, as described in the feature selection section of the dataset.
 
 ### Feature Selection 
 
@@ -42,11 +42,11 @@ fBodyGyroJerkMag
 # Data Transformation
 The following steps were performed to clean and transform the data:
 
-1.Training and test sets were merged to create one dataset.
-2.Only the measurement variables related to mean and standard deviation were extracted.
-3.Descriptive activity names were used to label the activities in the dataset.
-4.Appropriate variable names were assigned to the dataset to make them more descriptive.
-5.A second, independent tidy dataset was created, which represents the average of each variable for each activity and each subject.
+1. Training and test sets were merged to create one dataset.
+2. Only the measurement variables related to mean and standard deviation were extracted.
+3. Descriptive activity names were used to label the activities in the dataset.
+4. Appropriate variable names were assigned to the dataset to make them more descriptive.
+5. A second, independent tidy dataset was created, which represents the average of each variable for each activity and each subject.
 
 # Tidy Data
 The final tidy dataset, named "tidyData.txt", contains the average values of the selected measurement variables for each activity and each subject.
