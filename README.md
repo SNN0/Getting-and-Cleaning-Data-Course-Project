@@ -12,3 +12,7 @@ This repository contains the scripts and files related to the project on collect
 2. Run the 'run_analysis.R' script in R or RStudio. Make sure the necessary packages are installed.
 3. The script will download the dataset, perform the required transformations, and generate the tidy dataset.
 4. The tidy dataset will be saved as 'tidyData.txt'.
+
+For detailed information on the analysis steps and the data, refer to the 'CodeBook.md' file.
+
+Note: The code and files in this repository were created as part of the project submission and demonstrate the ability to collect, work with, and clean a data set.
