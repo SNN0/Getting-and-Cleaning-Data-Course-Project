@@ -49,4 +49,4 @@ The following steps were performed to clean and transform the data:
 5. A second, independent tidy dataset was created, which represents the average of each variable for each activity and each subject.
 
 # Tidy Data
-The final tidy dataset, named "tidyData.txt", contains the average values of the selected measurement variables for each activity and each subject.
+The final tidy dataset, named "tidy_data.txt", contains the average values of the selected measurement variables for each activity and each subject.
